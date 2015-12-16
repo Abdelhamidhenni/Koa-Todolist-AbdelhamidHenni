@@ -3,7 +3,7 @@
     "description": "Une todolist KOA",
     "author": "AbdelhamidHenni",
     "version": "1.0.0",
-    "repository": "https://github.com/AbdelhamidHenni/Koa-Todolist",
+    "repository": "https://github.com/Abdelhamidhenni/Koa-Todolist-AbdelhamidHenni",
     "dependencies": {
         "koa": "~0.2.0",
         "co-body": "0.0.1",
