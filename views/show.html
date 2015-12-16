@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block title %}{{ todo.name }}{% endblock %}
+
+{% block content %}
+  <h1>{{ todo.name }}</h1>
+  <p>{{ todo.description }}</p>
+  <p><i>Crée Le: </i> {{ todo.created_on.toDateString() }}</p>
+  <p><i>Mise A jour le: </i> {{ todo.updated_on.toDateString() }}</p>
+  <p><a href="/">Retour</a></p>
+{% endblock %}
